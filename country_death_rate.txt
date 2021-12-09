@@ -1,0 +1,243 @@
+The death rate
+=======================================================================
+
+Afghanistan's death rate is 0.05
+
+Albania's death rate is 0.02
+
+Algeria's death rate is 0.03
+
+Andorra's death rate is 0.01
+
+Angola's death rate is 0.03
+
+Argentina's death rate is 0.02
+
+Aruba's death rate is 0.01
+
+Australia's death rate is 0.01
+
+Austria's death rate is 0.01
+
+Azerbaijan's death rate is 0.01
+
+Bahamas (the)'s death rate is 0.03
+
+Bahrain's death rate is 0.01
+
+Bangladesh's death rate is 0.02
+
+Barbados's death rate is 0.01
+
+Belarus's death rate is 0.01
+
+Belgium's death rate is 0.02
+
+Belize's death rate is 0.02
+
+Benin's death rate is 0.01
+
+Bermuda's death rate is 0.02
+
+Bhutan's death rate is 0.0
+
+Bolivia (Plurinational State of)'s death rate is 0.04
+
+Bosnia and Herzegovina's death rate is 0.05
+
+Botswana's death rate is 0.01
+
+Brazil's death rate is 0.03
+
+Brunei Darussalam's death rate is 0.01
+
+Bulgaria's death rate is 0.04
+
+Burkina Faso's death rate is 0.01
+
+Burundi's death rate is 0.0
+
+Cabo Verde's death rate is 0.01
+
+Cambodia's death rate is 0.02
+
+Cameroon's death rate is 0.02
+
+Canada's death rate is 0.02
+
+Central African Republic (the)'s death rate is 0.01
+
+Chile's death rate is 0.02
+
+China's death rate is 0.05
+
+Colombia's death rate is 0.03
+
+Congo (the Democratic Republic of the)'s death rate is 0.02
+
+Congo (the)'s death rate is 0.02
+
+Costa Rica's death rate is 0.01
+
+Côte d'Ivoire's death rate is 0.01
+
+Croatia's death rate is 0.02
+
+Cuba's death rate is 0.01
+
+Cyprus's death rate is 0.0
+
+Czechia's death rate is 0.02
+
+Denmark's death rate is 0.01
+
+Djibouti's death rate is 0.01
+
+Dominica's death rate is 0.01
+
+Dominican Republic (the)'s death rate is 0.01
+
+Ecuador's death rate is 0.06
+
+Egypt's death rate is 0.06
+
+Eritrea's death rate is 0.01
+
+Estonia's death rate is 0.01
+
+Ethiopia's death rate is 0.02
+
+Faroe Islands (the)'s death rate is 0.0
+
+Fiji's death rate is 0.01
+
+Finland's death rate is 0.01
+
+France's death rate is 0.02
+
+Gabon's death rate is 0.01
+
+Gambia (the)'s death rate is 0.03
+
+Georgia's death rate is 0.01
+
+Germany's death rate is 0.02
+
+Ghana's death rate is 0.01
+
+Greece's death rate is 0.02
+
+Greenland's death rate is 0.0
+
+Guam's death rate is 0.01
+
+Guatemala's death rate is 0.03
+
+Guinea's death rate is 0.01
+
+Guyana's death rate is 0.03
+
+Haiti's death rate is 0.03
+
+Honduras's death rate is 0.03
+
+Hong Kong's death rate is 0.02
+
+Hungary's death rate is 0.04
+
+Iceland's death rate is 0.0
+
+India's death rate is 0.01
+
+Indonesia's death rate is 0.03
+
+Iran (Islamic Republic of)'s death rate is 0.02
+
+Iraq's death rate is 0.01
+
+Ireland's death rate is 0.01
+
+Israel's death rate is 0.01
+
+Italy's death rate is 0.03
+
+Jamaica's death rate is 0.03
+
+Japan's death rate is 0.01
+
+Jordan's death rate is 0.01
+
+Kazakhstan's death rate is 0.02
+
+Kenya's death rate is 0.02
+
+Kiribati's death rate is 0.0
+
+Korea (the Republic of)'s death rate is 0.01
+
+Kuwait's death rate is 0.01
+
+Kyrgyzstan's death rate is 0.01
+
+Lao People's Democratic Republic (the)'s death rate is 0.0
+
+Latvia's death rate is 0.01
+
+Lebanon's death rate is 0.01
+
+Lesotho's death rate is 0.03
+
+Liberia's death rate is 0.05
+
+Libya's death rate is 0.01
+
+Liechtenstein's death rate is 0.02
+
+Lithuania's death rate is 0.01
+
+Luxembourg's death rate is 0.01
+
+Macao's death rate is 0.0
+
+Madagascar's death rate is 0.02
+
+Malawi's death rate is 0.04
+
+Malaysia's death rate is 0.01
+
+Mali's death rate is 0.04
+
+Malta's death rate is 0.01
+
+Mauritania's death rate is 0.02
+
+Mauritius's death rate is 0.01
+
+Mexico's death rate is 0.08
+
+Moldova (the Republic of)'s death rate is 0.02
+
+Monaco's death rate is 0.01
+
+Mongolia's death rate is 0.0
+
+Morocco's death rate is 0.02
+
+Mozambique's death rate is 0.01
+
+Myanmar's death rate is 0.04
+
+Namibia's death rate is 0.03
+
+Niger (the)'s death rate is 0.03
+
+Spain's death rate is 0.02
+
+Sri Lanka's death rate is 0.03
+
+Switzerland's death rate is 0.01
+
+United Arab Emirates (the)'s death rate is 0.0
+
+United Kingdom of Great Britain and Northern Ireland (the)'s death rate is 0.02
+

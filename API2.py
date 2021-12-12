@@ -29,19 +29,21 @@ def create_country_table(cur, conn):
             stringency = country_data['stringency']
             stringency_legacy = country_data['stringency_legacy']
 
-        # death_rate = str(round(deaths/confirmed_num,2))
-        # print(confirmed_num)
-
             cur.execute('INSERT OR IGNORE INTO CountryCode (code, confirmed, deaths, stringency, stringency_legacy, date) VALUES (?,?,?,?,?,?)', (code, confirmed_num, deaths, stringency, stringency_legacy, dated))
             if cur.rowcount == 1:
                 count = count + 1
-                if count == 25:
+                if count == 26:
                     exit()
     
     
             conn.commit()
-
-    # cur.execute('SELECT CountryCode.code, Country.Country, CountryCode.confirmed, CountryCode.deaths, CountryCode.stringency FROM Country INNER JOIN CountryCode ON Country.threeDigits = CountryCode.code')
+"""
+Takes the cursor and the connection to the database as inputs.
+Loads the API data into the json file.
+Create the "CountryCode" table
+Insert the data into the table.
+Returns nothing. 
+"""
     
 
 def setUpDatabase(covid_cond):
@@ -49,11 +51,18 @@ def setUpDatabase(covid_cond):
     conn = sqlite3.connect(path+"/"+covid_cond)
     cur = conn.cursor()
     return cur,conn
+""" 
+Set up the database and the input should be the name of your choice.
+Returns the cursor and the connection to the database.
+"""
 
 
 def main():
     cur,conn= setUpDatabase('covid.db')
     data = create_country_table(cur,conn)
+"""
+Takes nothing as input and call the functions above
+"""
 
 
 

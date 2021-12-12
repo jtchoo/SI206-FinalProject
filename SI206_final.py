@@ -13,7 +13,10 @@ def setUpDatabase(db_name):
     conn = sqlite3.connect(path+'/'+db_name)
     cur = conn.cursor()
     return cur, conn
-
+""" 
+Set up the database and the input should be the name of your choice.
+Returns the cursor and the connection to the database.
+"""
 
 def get_country():
     country = {}
@@ -29,6 +32,10 @@ def get_country():
             country[str(data)] = countries[i].select("td")[2].text
 
     return country
+""" 
+No inputs. Request the website url that we are going to scrape from.
+Return a dictionary that has the country full name as the key and Alpha-3 code as the value. 
+"""
 
 
 def setUpCountryTable(data, cur, conn):
@@ -42,6 +49,12 @@ def setUpCountryTable(data, cur, conn):
     for i in data_key:
         cur.execute("INSERT INTO Country (Country, threeDigits) VALUES (?,?)",(i,data[i]))
     conn.commit()
+"""
+Takes the dictionary that we got from get_country(), the cursor, and the connection of the database as inputs.
+Will create the "Country" table.
+Insert countries' full name and their Alpha-3 code into the table. 
+Returns nothing. 
+"""
 
 
 
@@ -49,6 +62,9 @@ def main():
     cur, conn = setUpDatabase('covid.db')
     list = get_country()
     setUpCountryTable(list, cur, conn)
+"""
+Takes nothing as input and call the functions above
+"""
 
 
 

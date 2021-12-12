@@ -13,7 +13,8 @@ def create_country_table(cur, conn):
     dict = json.loads(data) 
 
     # cur.execute('DROP TABLE IF EXISTS CountryCode')
-    cur.execute('CREATE TABLE IF NOT EXISTS CountryCode ("code" TEXT PRIMARY KEY, "confirmed" INTEGER, "deaths" INTEGER, "stringency" FLOAT, "date" TEXT, UNIQUE("code", "date"))')
+    cur.execute('CREATE TABLE IF NOT EXISTS CountryCode ("code" TEXT, "confirmed" INTEGER, "deaths" INTEGER, "stringency" FLOAT, "stringency_legacy" FLOAT, "date" TEXT, UNIQUE("code", "date"))')
+    # , UNIQUE("code", "date"))
     conn.commit()
 
     count = 0
@@ -26,11 +27,12 @@ def create_country_table(cur, conn):
             deaths = country_data['deaths']
             confirmed_num = country_data['confirmed']
             stringency = country_data['stringency']
+            stringency_legacy = country_data['stringency_legacy']
 
         # death_rate = str(round(deaths/confirmed_num,2))
         # print(confirmed_num)
 
-            cur.execute('INSERT OR IGNORE INTO CountryCode (code, confirmed, deaths, stringency, date) VALUES (?,?,?,?,?)', (code, confirmed_num, deaths, stringency, dated))
+            cur.execute('INSERT OR IGNORE INTO CountryCode (code, confirmed, deaths, stringency, stringency_legacy, date) VALUES (?,?,?,?,?,?)', (code, confirmed_num, deaths, stringency, stringency_legacy, dated))
             if cur.rowcount == 1:
                 count = count + 1
                 if count == 25:
